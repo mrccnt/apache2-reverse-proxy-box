@@ -1,0 +1,6 @@
+/.idea
+/*.log
+/.vagrant
+/entry/log/*
+/app/log/*
+!.gitkeep
