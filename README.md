@@ -17,7 +17,7 @@ We make use of a `mod-authn-dbd` and `libaprutil1-dbd-mysql` to validate against
 
 **Apache2 HTML Auth Form**
 
-While authenticating via apache we do not want to use the browser specific basic buth box. Instead we want to use a
+While authenticating via apache we do not want to use the browser specific basic auth box. Instead we want to use a
 html form that we can style as desired.
 
 ## Setup
@@ -32,7 +32,7 @@ Maybe you have to modify CPU/RAM usage in [Vagrantfile](Vagrantfile).
     app         192.168.1.123   http://app.dev      1       2048 MB     Official Ubuntu 16.04 LTS
     maria       192.168.1.124   -                   1       2048 MB     Official Ubuntu 16.04 LTS
 
-Those machines are configured using static ip addresses. This makes routing bewtween entry, app and your localhost much
+Those machines are configured using static ip addresses. This makes routing bewtween entry, app, maria and your localhost much
 easier. Especially as we have to deal with routing specific things its always a big deal to be able to "fix" ip addresses
 instead of getting weird network setups.
 
